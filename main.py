@@ -3,7 +3,7 @@ import threading
 sum = 0
 estimate = 0
 i = 0
-epsilon = 0.000000001
+epsilon = 0.000000000000001 # Number of iterations (More = More precise)
 
 def calculate_sum():
     global sum, i
